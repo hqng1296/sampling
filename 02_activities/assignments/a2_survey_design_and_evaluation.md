@@ -80,9 +80,9 @@ Identify and describe survey features:
 6. Timeline: from Sep 4th, 2018 to Dec 28th, 2018.
 7. Response rate: 41.9%
 8. Weights: estimation weights (which was used to compensate for non-response and ensure that the results are representative of the target population)
-9. Data processing: Error detection includes check for family relationships, age, response flows. 
+9. Data processing: Error detection includes check for family relationships, age, response flows. This is done throughout the course of the survey. 
 10. Cleaning, imputation, etc.: Missing/ inconsistent data were addressed through imputation, which was done in 9 steps: imputing personal and family income (step 1), imputing the formal volunteering variables (steps 2-4), imputing the informal volunteering variables (steps 5-6), imputing variables in the donation file and solicitation methods (steps 7-9). 
-11. Sources of error: sampling erros, coverage errors (imperfect coverage), non-response bias.
+11. Sources of error: sampling errors (stemmed from using a subgroup to estaimate the whole population), coverage errors (due to imperfect coverage), non-response bias.
 12. Limitations, known biases, etc.: Limitations: the survey did not include residents from the territories and full-time institutional residents. Bias: the survey is based on self-reported data, which often have recall bias and social desirability bias. 
 13. Link: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234&utm_source=chatgpt.com
 ```
