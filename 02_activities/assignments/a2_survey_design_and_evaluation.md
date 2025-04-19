@@ -40,30 +40,31 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The survey is designed to identify the reasons behind the high turnover rates among the entry- and lower-level employees. The survey aims to gather feedback on job satisfation, workplace culture, and management practices (i.e. mentor-mentee relationship). The results will help guide organizational changes needed to improve employee retention. 
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+The target population is all curent and recently departed employees who work at entry- and lower-levels within the company.
+The sampling frame is a list of current and past entry- and lower-level employees from the company database.
+The sampling units are individual employeers with entry- and lower-level positions.
+The observational units are the individual employees who responded to the survey.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. How long have you been (or were you) employed with the company?
+2. How satisfied are/were you with your overall job experience?
+3. Which of the following factors most influenced your decision to stay/leave? (Options: compensation/ career growth and opportunities/ company culture/ management style / others (specify).
+4. Are you receveing adequate mentorship/ training from your leaders/ managers?
+5. How would you rate your communication and support from your supervisors/managers? (1-5 with 1 being very poor and 5 being excellent)
+6. Would you recommend this company to a friend as a good place to work?
+7. Any additional comments you'd like to share?
+
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +72,19 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: the survey used stratified random sampling (information is collected from 1 randomly selected household member aged 15 or older, and proxy responses are not permitted). Stratification was done based on geographical areas of each provinces. The survey also used 'rejective sampling' where after a respondent was identified as volunteer/ not-volunteer, a subsampling is done for the selected, non-volunteer respondents. All selected volunteer respondents did a long interview, while the non-volunteer group was split in half (one half did a long interview, and the other half did a short interview). 
+2. Sample size: field sample of ~50,000 individuals, of which 40,000 received an invitation letters to the questionnaires. ~ 24,000 responses to the questionnaires were expected. 
+3. Target population: all persons 15 years of age and older living in the 10 provinces of Canada, excluding full-time residents of institutions. 
+4. Sampling frame: landline and cellular telephone numbers from the Census and other administrative sources with Statistics Canada's dwelling frame. 
+5. Survey mode(s): electronic questionaires and computer assisted telephone interviewing. 
+6. Timeline: from Sep 4th, 2018 to Dec 28th, 2018.
+7. Response rate: 41.9%
+8. Weights: estimation weights (which was used to compensate for non-response and ensure that the results are representative of the target population)
+9. Data processing: Error detection includes check for family relationships, age, response flows. This is done throughout the course of the survey. 
+10. Cleaning, imputation, etc.: Missing/ inconsistent data were addressed through imputation, which was done in 9 steps: imputing personal and family income (step 1), imputing the formal volunteering variables (steps 2-4), imputing the informal volunteering variables (steps 5-6), imputing variables in the donation file and solicitation methods (steps 7-9). 
+11. Sources of error: sampling errors (stemmed from using a subgroup to estaimate the whole population), coverage errors (due to imperfect coverage), non-response bias.
+12. Limitations, known biases, etc.: Limitations: the survey did not include residents from the territories and full-time institutional residents. Bias: the survey is based on self-reported data, which often have recall bias and social desirability bias. 
+13. Link: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234&utm_source=chatgpt.com
 ```
 
 ## Rubric
