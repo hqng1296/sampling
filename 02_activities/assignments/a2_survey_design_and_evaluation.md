@@ -44,26 +44,27 @@ The number of your chosen topic: `#`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The survey is designed to identify the reasons behind the high turnover rates among the entry- and lower-level employees. The survey aims to gather feedback on job satisfation, workplace culture, and management practices (i.e. mentor-mentee relationship). The results will help guide organizational changes needed to improve employee retention. 
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+The target population is all curent and recently departed employees who work at entry- and lower-levels within the company.
+The sampling frame is a list of current and past entry- and lower-level employees from the company database.
+The sampling units are individual employeers with entry- and lower-level positions.
+The observational units are the individual employees who responded to the survey.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. How long have you been (or were you) employed with the company?
+2. How satisfied are/were you with your overall job experience?
+3. Which of the following factors most influenced your decision to stay/leave? (Options: compensation/ career growth and opportunities/ company culture/ management style / others (specify).
+4. Are you receveing adequate mentorship/ training from your leaders/ managers?
+5. How would you rate your communication and support from your supervisors/managers? (1-5 with 1 being very poor and 5 being excellent)
+6. Would you recommend this company to a friend as a good place to work?
+7. Any additional comments you'd like to share?
+
 ```
 
 ## Part B - Survey Evaluation:
