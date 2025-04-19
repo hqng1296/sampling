@@ -72,7 +72,19 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: the survey used stratified random sampling (information is collected from 1 randomly selected household member aged 15 or older, and proxy responses are not permitted). Stratification was done based on geographical areas of each provinces. The survey also used 'rejective sampling' where after a respondent was identified as volunteer/ not-volunteer, a subsampling is done for the selected, non-volunteer respondents. All selected volunteer respondents did a long interview, while the non-volunteer group was split in half (one half did a long interview, and the other half did a short interview). 
+2. Sample size: field sample of ~50,000 individuals, of which 40,000 received an invitation letters to the questionnaires. ~ 24,000 responses to the questionnaires were expected. 
+3. Target population: all persons 15 years of age and older living in the 10 provinces of Canada, excluding full-time residents of institutions. 
+4. Sampling frame: landline and cellular telephone numbers from the Census and other administrative sources with Statistics Canada's dwelling frame. 
+5. Survey mode(s): electronic questionaires and computer assisted telephone interviewing. 
+6. Timeline: from Sep 4th, 2018 to Dec 28th, 2018.
+7. Response rate: 41.9%
+8. Weights: estimation weights (which was used to compensate for non-response and ensure that the results are representative of the target population)
+9. Data processing: Error detection includes check for family relationships, age, response flows. 
+10. Cleaning, imputation, etc.: Missing/ inconsistent data were addressed through imputation, which was done in 9 steps: imputing personal and family income (step 1), imputing the formal volunteering variables (steps 2-4), imputing the informal volunteering variables (steps 5-6), imputing variables in the donation file and solicitation methods (steps 7-9). 
+11. Sources of error: sampling erros, coverage errors (imperfect coverage), non-response bias.
+12. Limitations, known biases, etc.: Limitations: the survey did not include residents from the territories and full-time institutional residents. Bias: the survey is based on self-reported data, which often have recall bias and social desirability bias. 
+13. Link: https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234&utm_source=chatgpt.com
 ```
 
 ## Rubric
