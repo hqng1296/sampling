@@ -10,12 +10,38 @@ Modify the number of repetitions in the simulation to 100 (from the original 100
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: HUONG NGUYEN
 
 ```
-Please write your explanation here...
+- Stages where sampling occurs:
+1. Infecting a random subset of people - this is simple random sampling without replacement because the infected individuals are being chosen randomly and the 'replace' option is set to FALSE; based on the settings of this simulation, the sample size (infected individuals) is 10% of the population and each individual can only be "infected" once. The sampling frame is all individuals at the events (wedding and brunch). This procedure is different from the one described in the blog post where an individual has a 10% chance of getting infected at each event. Here, we're simulating a 10% infection rate for the whole population, which means all the infected people could be from either the wedding or the brunch.
+
+2. Primary contact tracing - this is also random sampling without replacement. Although the number of infected people being traced is capped at 20% (TRACE_SUCCESS =0.2), this is not sampling strategy but rather a way to simulate real-life difficulties of tracing infected individuals. The sample size in this case is 20% of the infected individuals. The sampling frame is all infected individuals. This procedure is also similar to the one mentioned in the blog post in which only 20% of infected individuals can be traced.
+
+This is the output when m = 1000:
+![m1000](https://github.com/user-attachments/assets/970314eb-150d-460e-8628-aa3a642da1c4)
+This result is different from the one in the blog post! I think the main factor for this difference is that in the blog post, each wedding/brunch is treated as individual incident (2 weddings and 80 brunches), whereas in our code there is one big wedding event and one big brunch event. Although the population number and the number of infected individuals are the same, the source of infection can vary significantly between these two simulations. 
+
+This is the output when m = 100:
+1st run:
+![m100_1](https://github.com/user-attachments/assets/30269526-b27f-41e8-aea1-b7e0a9e4f284)
+
+2nd run:
+![m100_2](https://github.com/user-attachments/assets/39202379-91ce-40e8-8a2c-ea8a700aebda)
+
+3rd run:
+![m100_3](https://github.com/user-attachments/assets/0bba244b-a2aa-4bc4-b381-a3ff5a6d8205)
+
+4th run:
+![m100_4](https://github.com/user-attachments/assets/077e39e0-0e8c-4842-a4ab-247430f0f6cd)
+
+I'd say that the results are similar (the overall trend of these graphs are similar, with the distributions centering around 20%) but not reproducible.
+
+To ensure that the code is reproducible, I've introduced a seed value (right before defining the simulate_event function). The resulting graph is shown below, and it stays consistent between runs.
+![withseed](https://github.com/user-attachments/assets/d8bfdfa3-686e-453e-afa8-68d6e6a8b252)
 
 ```
+
 
 
 ## Criteria
